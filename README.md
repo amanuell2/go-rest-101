@@ -120,11 +120,11 @@ POST /return/:id
 ## Error Handling
 ### The API returns appropriate HTTP status codes and error messages for various error scenarios.
 
-HTTP Status Code	Error Message	Description
-400	Invalid request payload	The request payload is invalid.
-404	Book not found	The requested book is not found in the inventory.
-409	Book not available for checkout	The requested book is not available for checkout as it has already been checked out by someone else.
-500	Internal server error	An error occurred while processing the request. Please try again later.
+HTTP Status Code	Error Message	Description <br>
+400	Invalid request payload	The request payload is invalid. <br>
+404	Book not found	The requested book is not found in the inventory. <br>
+409	Book not available for checkout	The requested book is not available for checkout as it has already been checked out by someone else. <br>
+500	Internal server error	An error occurred while processing the request. Please try again later. <br>
 
 ## Conclusion
 This is a simple RESTful API for a bookstore application built with Golang and Gin framework. The API allows you to add a book to the inventory, checkout a book and return a book. Feel free to modify and extend it to fit your needs.
